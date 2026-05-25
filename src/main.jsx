@@ -147,14 +147,14 @@ function Hero() {
 
 const skillGroups = [
   { title: 'Backend', icon: Code2, items: ['Java', 'Spring Boot', 'Security', 'JWT', 'JPA', 'Java EE', 'ASP.NET', 'PHP'] },
-  { title: 'Frontend', icon: Layers3, items: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Angular 19', 'Tailwind CSS'] },
+  { title: 'Frontend', icon: Layers3, items: ['HTML', 'CSS', 'JavaScript ES6', 'TypeScript', 'React.js', 'Angular 19', 'Tailwind CSS', 'Sass/SCSS'] },
   { title: 'CMS & SEO', icon: Wrench, items: ['WordPress', 'Elementor', 'WP Bakery', 'Ahrefs'] },
   { title: 'Databases', icon: Database, items: ['MySQL', 'SQL Server', 'Oracle PL/SQL'] },
-  { title: 'DevOps & Cloud', icon: Cloud, items: ['Git', 'GitHub', 'Docker basic', 'AWS Cloud Foundations', 'Azure basic'] },
+  { title: 'DevOps & Cloud', icon: Cloud, items: ['Git', 'GitHub', 'Docker', 'AWS Cloud Foundations', 'Azure basic'] },
   { title: 'Tools', icon: Terminal, items: ['VS Code', 'IntelliJ IDEA', 'Eclipse', 'Postman'] },
 ];
 
-const orbitSkills = ['Java', 'Spring Boot', 'React.js', 'Angular 19', 'Tailwind CSS', 'MySQL', 'Docker', 'AWS', 'WordPress', 'GitHub', 'Postman', 'Oracle PL/SQL'];
+const orbitSkills = ['Java', 'Spring Boot', 'React.js', 'TypeScript', 'Sass/SCSS', 'Angular 19', 'MySQL', 'Docker', 'AWS', 'WordPress'];
 
 function SectionHeading({ eyebrow, title, children }) {
   return (
