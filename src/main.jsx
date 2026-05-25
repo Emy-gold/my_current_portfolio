@@ -24,7 +24,7 @@ import './styles.css';
 
 const sections = ['Home', 'About', 'Experience', 'Skills', 'Projects', 'Contact'];
 const githubUrl = 'https://github.com/Emy-gold';
-const linkedinUrl = 'https://www.linkedin.com/in/iman-el-garate';
+const linkedinUrl = 'https://www.linkedin.com/in/iman-el-garate-520662277/';
 const email = 'imanelgarate@gmail.com';
 const phone = '0607 20 13 21';
 const WorkspaceScene = lazy(() => import('./ThreeScenes.jsx').then((module) => ({ default: module.WorkspaceScene })));
